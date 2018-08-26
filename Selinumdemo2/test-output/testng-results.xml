@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[total no links160]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching]]>
+    </line>
+    <line>
+      <![CDATA[total no of links164]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching]]>
+    </line>
+    <line>
+      <![CDATA[Total no. of Links = 156]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching]]>
+    </line>
+    <line>
+      <![CDATA[Total no links168]]>
+    </line>
+    <line>
+      <![CDATA[Title is not matching]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="87670" started-at="2018-08-26T05:55:54Z" finished-at="2018-08-26T05:57:22Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="87670" started-at="2018-08-26T05:55:54Z" finished-at="2018-08-26T05:57:22Z">
+      <class name="testScripts.Test4">
+        <test-method status="PASS" signature="init()[pri:0, instance:testScripts.Test4@685cb137]" name="init" is-config="true" duration-ms="7077" started-at="2018-08-26T05:56:48Z" finished-at="2018-08-26T05:56:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="FAIL" signature="linkedin()[pri:0, instance:testScripts.Test4@685cb137]" name="linkedin" duration-ms="25635" started-at="2018-08-26T05:56:55Z" finished-at="2018-08-26T05:57:21Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Sign Up | LinkedIn] but found [LinkedIn: Log In or Sign Up]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Sign Up | LinkedIn] but found [LinkedIn: Log In or Sign Up]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at testScripts.Test4.linkedin(Test4.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Total no links168]]>
+            </line>
+            <line>
+              <![CDATA[Title is not matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- linkedin -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testScripts.Test4@685cb137]" name="close" is-config="true" duration-ms="1288" started-at="2018-08-26T05:57:21Z" finished-at="2018-08-26T05:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testScripts.Test4 -->
+      <class name="testScripts.Test2">
+        <test-method status="PASS" signature="init()[pri:0, instance:testScripts.Test2@91161c7]" name="init" is-config="true" duration-ms="10614" started-at="2018-08-26T05:55:54Z" finished-at="2018-08-26T05:56:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="instagramtest()[pri:0, instance:testScripts.Test2@91161c7]" name="instagramtest" duration-ms="7319" started-at="2018-08-26T05:56:05Z" finished-at="2018-08-26T05:56:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[total no links160]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- instagramtest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testScripts.Test2@91161c7]" name="close" is-config="true" duration-ms="1426" started-at="2018-08-26T05:56:12Z" finished-at="2018-08-26T05:56:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testScripts.Test2 -->
+      <class name="testScripts.Test3">
+        <test-method status="PASS" signature="init()[pri:0, instance:testScripts.Test3@604ed9f0]" name="init" is-config="true" duration-ms="5635" started-at="2018-08-26T05:56:14Z" finished-at="2018-08-26T05:56:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="twittertest()[pri:0, instance:testScripts.Test3@604ed9f0]" name="twittertest" duration-ms="10503" started-at="2018-08-26T05:56:19Z" finished-at="2018-08-26T05:56:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[total no of links164]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- twittertest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testScripts.Test3@604ed9f0]" name="close" is-config="true" duration-ms="1351" started-at="2018-08-26T05:56:30Z" finished-at="2018-08-26T05:56:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testScripts.Test3 -->
+      <class name="testScripts.Test1">
+        <test-method status="PASS" signature="init()[pri:0, instance:testScripts.Test1@6a4f787b]" name="init" is-config="true" duration-ms="6840" started-at="2018-08-26T05:56:31Z" finished-at="2018-08-26T05:56:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="facebookTest()[pri:0, instance:testScripts.Test1@6a4f787b]" name="facebookTest" duration-ms="8435" started-at="2018-08-26T05:56:38Z" finished-at="2018-08-26T05:56:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Total no. of Links = 156]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- facebookTest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testScripts.Test1@6a4f787b]" name="close" is-config="true" duration-ms="1426" started-at="2018-08-26T05:56:46Z" finished-at="2018-08-26T05:56:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testScripts.Test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
